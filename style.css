@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+body{
+    background-color: aquamarine;
+    
+    
+  
+    
+}
+.cards{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Archivo Black', sans-serif;
+}
+.t{
+    color: rgb(63, 96, 245);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 130px;
+}
+.rasm{
+    width: 150px;
+    height: 150px;
+}
+.btn{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    color: rgb(19, 17, 149); 
+    cursor: pointer;
+    background-color: rgb(64, 237, 243);
+   
+}
+.btn:hover{
+   background-color:rgb(57, 244, 97);
+}
